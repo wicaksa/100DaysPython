@@ -1,4 +1,3 @@
-# This class keeps track of the score of the game.
 from turtle import Turtle
 
 # Constants
@@ -8,6 +7,11 @@ FONT = ("Courier", 24, "normal")
 ALIGNMENT = "Center"
 
 class Scoreboard(Turtle):
+    
+    """
+    This class keeps track of the score of the game.
+    """
+    
     def __init__(self):
         super().__init__()
         self.penup()
