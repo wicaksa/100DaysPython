@@ -1,6 +1,3 @@
-# This class represents the food on the screen.
-# It will move to a random location after the snake segment eats it.
-
 from turtle import Turtle
 import random
 
@@ -9,6 +6,11 @@ SIZE = 1.0
 
 # inherit from the Turtle class
 class Food(Turtle):
+    
+    """
+    This class represents the food object on the screen.
+    """
+    
     def __init__(self):
         super().__init__()
         self.shape("circle")
